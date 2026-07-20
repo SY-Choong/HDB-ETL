@@ -4,7 +4,7 @@ This repository contains an executable ETL pipeline (notebook) that processes HD
 
 ## What is included
 
-- Executable Jupyter notebook: `part1/HDB_ETL_Pipeline.ipynb`
+- Executable Jupyter notebook: `part1/scripts/HDB_ETL_Pipeline.ipynb`
 - Input CSVs: `part1/raw/` (5 source CSV files)
 - Outputs: `part1/output/` (raw, cleaned, transformed, failed, hashed)
 - Architecture design: `part2/architecture/hdb_architecture.png`
