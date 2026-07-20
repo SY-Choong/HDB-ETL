@@ -29,13 +29,7 @@ pip install -r requirements.txt
 2. Run the notebook (interactive):
 
 ```
-jupyter notebook part1/HDB_ETL_Pipeline.ipynb
-```
-
-Or run non-interactively (reproduces the executed outputs):
-
-```
-jupyter nbconvert --to notebook --execute part1/HDB_ETL_Pipeline.ipynb --ExecutePreprocessor.timeout=3600
+jupyter notebook part1/scripts/HDB_ETL_Pipeline.ipynb
 ```
 
 3. Check generated outputs in `part1/output/`.
